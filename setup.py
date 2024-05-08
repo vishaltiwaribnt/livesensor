@@ -1,13 +1,13 @@
-from setuptools import find_packages,setup
+from setuptools import find_packages,setup # type: ignore
 
-#from typing import List
+from typing import List
 
 
 def get_requirements()->List[str]:
 
-    reuirements_list : List[str] = []
+    reqirements_list : List[str] = []
 
-    return reuirements_list
+    return reqirements_list
 
 
  
